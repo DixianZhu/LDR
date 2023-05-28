@@ -1,7 +1,7 @@
 # LDR-KL and ALDR-KL loss functions
 The LDR-KL loss and ALDR-KL loss from: 'Label Distributionally Robust Losses for Multi-class Classification: Consistency, Robustness and Adaptivity', Dixian Zhu, Yiming Ying, Tianbao Yang, International Conference on Machine Learning (ICML), 2023.
 
-This is the code that how to run LDR-KL and ALDR-KL loss on benchmark datasets, such as Vowel, Letter, Kuzushiji-49, CIFAR-100, etc. 
+This is the code that runs LDR-KL and ALDR-KL loss on benchmark datasets, such as Vowel, Letter, Kuzushiji-49, CIFAR-100, etc. 
 
 ## Examples: 
 

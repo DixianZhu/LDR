@@ -19,3 +19,8 @@ This is the code that how to run LDR-KL and ALDR-KL loss on benchmark datasets, 
 
 - CUDA_VISIBLE_DEVICES=0  python3 experiment.py --dataset=letter --loss=LDR  --noise_type=class-dependent --lr=1e-3  --decay=5e-3 --noise_level=0.3
 - CUDA_VISIBLE_DEVICES=0  python3 experiment.py --dataset=letter --loss=ALDR  --noise_type=class-dependent --lr=1e-3  --decay=5e-3 --alpha=2 --noise_level=0.3
+
+## Others:
+Please make sure you have the data on the data folder. Please refer to the experiment.py for how to load the data. 
+
+For synthetic data experiments, please refer to the original paper for a simple setup. For the real world noisy dataset, mini-webvision, we thanks the previous pipeline [Ma et al](https://github.com/HanxunH/Active-Passive-Losses) and [Zhou et al](https://github.com/hitcszx/ALFs) where we further implement our loss functions. 

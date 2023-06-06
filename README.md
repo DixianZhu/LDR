@@ -34,7 +34,7 @@ For synthetic data experiments, please refer to the original paper for a simple 
 ## Citation:
 ```
 @inproceedings{zhu2023label,
-	title={Label Distributionally Robust Losses  for Multi-class Classification: Consistency, Robustness and Adaptivity},
+	title={Label Distributionally Robust Losses for Multi-class Classification: Consistency, Robustness and Adaptivity},
 	author={Zhu, Dixian and Ying, Yiming and Yang, Tianbao},
 	booktitle={Proceedings of the 40th International Conference on Machine Learning},
 	year={2023}

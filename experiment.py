@@ -131,7 +131,7 @@ if args.loss in ['CE', 'CEk', 'MAE', 'MSE']:
 if args.loss in ['CS', 'WW', 'SVMk', 'RLL']:
   parameter_set = [0.1, 1.0, 10.0]
 if args.loss in [ 'ALDR', 'LDR']:
-  parameter_set = [10]#[0.1, 1.0, 10]
+  parameter_set = [0.1, 1.0, 10]
 if args.loss == 'GCE':
   parameter_set = [0.05, 0.7, 0.95]
 if args.loss == 'tGCE':
